@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # NextJS Chat Tutorial
 
 <img 
@@ -23,3 +24,8 @@ The project has been deleted so those keys won't work anymore.
 ### `yarn dev`
 
 Install everything with `yarn` then run `yarn dev` to get up and running.
+=======
+# nextjs-chat
+![chat](https://user-images.githubusercontent.com/88527463/160255489-c99561cf-f6fa-4307-868b-da085e68f0ae.png)
+![chat2](https://user-images.githubusercontent.com/88527463/160255490-9eb7edc9-4db2-4feb-802c-92937f9266b4.png)
+>>>>>>> dd188c909b1ce13e4288d1088667dd4cfa3a710a
