@@ -1,6 +1,5 @@
 import React, { useContext } from "react";
 
-
 import { Context } from "../context";
 
 import { useRouter } from "next/router";
@@ -30,38 +29,33 @@ const Auth = () => {
   }
 
   return (
-    <div className="background1 container">
+    <div className="background">
       <div className="auth-container">
         <form className="auth-form" onSubmit={(e) => onSubmit(e)}>
-          <div className="auth-title"> Let's Chat</div>
+          <div className="auth-title">NextJS Chat</div>
 
-          <div className="email input">
+          <div className="input-container">
             <input
-              placeholder="Email or Nickname"
-              className="text input"
+              placeholder="Email"
+              className="text-input"
               onChange={(e) => setUsername(e.target.value)}
             />
           </div>
 
-          <div className="input password">
+          <div className="input-container">
             <input
               type="password"
               placeholder="Password"
-              className="text input"
+              className="text-input"
               onChange={(e) => setSecret(e.target.value)}
             />
           </div>
 
-          <button type="submit" className="submit input">
-            Login/Sign Up
+          <button type="submit" className="submit-button">
+            Login / Sign Up
           </button>
-
         </form>
-        <div><p className="by-goksu">By Goksu</p></div>
       </div>
-
- 
-
     </div>
   );
 };
